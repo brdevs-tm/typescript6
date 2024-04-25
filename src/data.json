@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "Alice Johnson",
+      "img": "./assets/img/users/user1.png",
+      "height": 165,
+      "weight": 60,
+      "eyeColor": "blue",
+      "hairColor": "blonde",
+      "bio": "Alice is an adventurous outdoor enthusiast and professional landscape photographer."
+    },
+    {
+      "name": "Bob Smith",
+      "img": "./assets/img/users/user2.png",
+      "height": 178,
+      "weight": 75,
+      "eyeColor": "brown",
+      "hairColor": "black",
+      "bio": "Bob loves reading historical fiction and volunteers at the local museum."
+    },
+    {
+      "name": "Carmen Santiago",
+      "img": "./assets/img/users/user3.png",
+      "height": 170,
+      "weight": 65,
+      "eyeColor": "green",
+      "hairColor": "red",
+      "bio": "Carmen is a software developer who specializes in mobile apps and enjoys salsa dancing on the weekends."
+    },
+    {
+      "name": "David Lee",
+      "img": "./assets/img/users/user4.png",
+      "height": 182,
+      "weight": 80,
+      "eyeColor": "hazel",
+      "hairColor": "brown",
+      "bio": "David is a coffee aficionado and writes reviews for various coffee shops around the city."
+    },
+    {
+      "name": "Ella Mae",
+      "img": "./assets/img/users/user5.png",
+      "height": 160,
+      "weight": 50,
+      "eyeColor": "gray",
+      "hairColor": "black",
+      "bio": "Ella is a professional ballet dancer who teaches young dancers and choreographs for local theater."
+    },
+    {
+      "name": "Frank Gates",
+      "img": "./assets/img/users/user6.png",
+      "height": 175,
+      "weight": 68,
+      "eyeColor": "blue",
+      "hairColor": "blonde",
+      "bio": "Frank is an amateur astronomer and enjoys night sky observations and astrophotography."
+    },
+    {
+      "name": "Gina Rivera",
+      "img": "./assets/img/users/user7.png",
+      "height": 158,
+      "weight": 54,
+      "eyeColor": "brown",
+      "hairColor": "auburn",
+      "bio": "Gina is a freelance journalist with a passion for social issues and documentary filmmaking."
+    },
+    {
+      "name": "Henry Ford",
+      "img": "./assets/img/users/user8.png",
+      "height": 185,
+      "weight": 90,
+      "eyeColor": "green",
+      "hairColor": "grey",
+      "bio": "Henry is a retired mechanical engineer who spends his time restoring vintage cars."
+    }
+  ]
+}

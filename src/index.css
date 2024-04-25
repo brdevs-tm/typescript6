@@ -1,3 +1,253 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+li {
+  list-style: none;
+}
+input {
+  outline: none;
+}
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+body {
+  background: #7b4397;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1b0522;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+header span {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+nav {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-right a {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.nav-right button {
+  padding: 11px 36px;
+  border-radius: 500px;
+  background: transparent;
+  border: 1px solid var(--btn-primary, #ee0979);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+form {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form h1 {
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+form span {
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.inputs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputs div {
+  position: relative;
+}
+
+.mess-icon,
+.pass-icon {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+.show-icon {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+.inputs input {
+  width: 100%;
+  max-width: 380px;
+  height: 70px;
+  background: transparent;
+  border: 1px solid #ee0979;
+  border-radius: 500px;
+  padding: 23px 70px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.inputs input::placeholder {
+  color: #fff;
+  opacity: 0.4;
+}
+
+form button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 500px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  width: 380px;
+  max-width: 100%;
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  box-shadow: 0px 20px 30px 0px rgba(179, 34, 31, 0.2);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+form a {
+  color: var(--btn-link, #d7c1df);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+footer {
+  margin-top: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1b0522;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.footer-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.link a {
+  color: #eee;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer-section span {
+  color: #eee;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media (max-width: 900px) {
+  nav {
+    align-items: start;
+    flex-direction: column;
+  }
+  .nav-right {
+    flex-direction: column;
+  }
+  .footer-section {
+    align-items: start;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .links {
+    align-items: start;
+    flex-direction: column;
+  }
+}
